@@ -7,16 +7,24 @@ class LinkdList{
 
 
         //addition first
-        list.addFirst("a");
         list.addFirst("b");
+        list.addFirst("c");
 
         System.out.println(list);
 
         //addition last
+        list.addFirst("a");
         list.addLast("e");
-        list.addLast("f");
 
         System.out.println(list);
+
+        //size
+        System.out.println(list.size());
+
+        //iterating in linked list
+        for(int i = 0; i < list.size(); i++){
+            System.out.print(list.get(i) + " -> ");
+        }System.out.print("NULL");
 
     }
 }
