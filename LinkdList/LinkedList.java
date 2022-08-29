@@ -26,5 +26,12 @@ class LinkdList{
             System.out.print(list.get(i) + " -> ");
         }System.out.print("NULL");
 
+        //remove
+        list.removeFirst();
+        System.out.println(list);
+
+        list.removeLast();
+        System.out.println(list);
+
     }
 }
