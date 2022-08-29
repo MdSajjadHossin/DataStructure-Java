@@ -6,9 +6,15 @@ class LinkdList{
         LinkedList<String> list = new LinkedList<String>();
 
 
-        //addition
+        //addition first
         list.addFirst("a");
         list.addFirst("b");
+
+        System.out.println(list);
+
+        //addition last
+        list.addLast("e");
+        list.addLast("f");
 
         System.out.println(list);
 
